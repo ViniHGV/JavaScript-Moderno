@@ -1,11 +1,7 @@
-document.getElementById('claro').addEventListener('click', TemaClaro)
-document.getElementById('escuro').addEventListener('click', TemaEscuro)
+const name = 'Vinícius'
+const anos = 19
 
-function TemaClaro(){
-    document.body.style.color = 'black'
-    document.body.style.backgroundColor = '#fff'
-}
-function TemaEscuro(){
-    document.body.style.color = '#fff'
-    document.body.style.backgroundColor = 'rgb(44, 44, 44)'
-}
+alert(`Eu sou o ${name}
+Tenho ${anos} anos
+Atualmente estamos em ${Date()}`)
+console.log()
