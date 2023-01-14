@@ -1,0 +1,19 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#frm{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px;
+    border: 0.2px solid #d7d7d7;
+}
+.isLight{
+    background-color: #fff;
+    color: rgb(44, 44, 44);
+}
+.isDark{
+    background-color: rgb(44, 44, 44);
+    color: #fff;
+}
