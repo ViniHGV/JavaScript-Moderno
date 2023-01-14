@@ -1,9 +1,27 @@
-const person = {
-    name: "Vinicius",
-    years: 19
-}
+const towns = ['Prontera', 'Izlude', 'Payon', 'Alberta', 'Geffen', 'Morroc']
 
-const {name, years} = person
+console.log(towns)
+console.log(...towns)
+console.log(...towns[0])
 
-console.log(`Nome: ${name} Idade: ${years}`)
+const townsCopy = towns
+
+townsCopy.pop()
+townsCopy.pop()
+townsCopy.push('Juno')
+
+console.log({ towns, townsCopy })
+
+const townsClone = [...towns]
+
+townsClone.push('Aldebaran')
+
+console.log({ towns, townsCopy, townsClone })
+
+const townsObj = { ...towns }
+const townsObjClone = { ...townsObj }
+
+townsObjClone.test = 'Test'
+
+console.log({ townsObj, townsObjClone })
 
