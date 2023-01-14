@@ -18,3 +18,6 @@ const number = 20
 const dobro = n => `O dobro do numero: ${n} é ${n*2}`
 console.log(dobro(number))
 
+const x = (x,y) => x*y
+
+console.log(x(10,20))  
