@@ -1,12 +1,9 @@
 const user = {
     name: "Vinicius",
     email: "ixxvinicius@gmail.com",
-    friends: [{
+    brothers: [{
         name: "Mary",
-        address: {
-            street: "Some Street",
-            number: 45
-        }
+        name: "Nilton"
     }],
     age: 42,
     phone: {
@@ -18,6 +15,8 @@ const user = {
 
 }
 
-console.log(user.friends[0])
+//Encadeamento Opcional
+console.log(user?.brothers?.[0]?.phone?.ddd)
 
-console.log(user?.friends[0]?.phone?.ddd)
+console.log(`Olá eu sou o ${user?.name} 
+E meu E-mail para contato é: ${user?.email}`)
