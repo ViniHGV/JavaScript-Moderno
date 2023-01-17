@@ -1,4 +1,4 @@
-const simplemedia = () => {
+const simpleMedia = () => {
     let n1 = parseFloat (prompt ("Digite a  primeira nota:"))
     let n2 = parseFloat (prompt ("Digite a  segunda nota:"))
     let n3 = parseFloat (prompt ("Digite a  terceira nota:"))
@@ -7,8 +7,14 @@ const simplemedia = () => {
     
     return ((n1 + n2 + n3 + n4) / 4)
 }
-let SM = simplemedia()
 
-alert(`A Média foi ${SM}`)
+const MediaPon = () =>{
+    
+}
+
+const Name = prompt("Digite o nome do aluno:")
+let SM = simpleMedia()
+
+alert(`A Média do aluno ${Name} foi: ${SM}`)
 
 
