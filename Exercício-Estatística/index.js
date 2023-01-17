@@ -1,4 +1,4 @@
-/*const simpleMedia = () => {
+const simpleMedia = () => {
 
     let i = 0
     let N = parseInt(prompt("Deseja obter a média simples de quantas notas ?"))
@@ -16,7 +16,7 @@
 
 let SM = simpleMedia()
 
-alert(`Média Simples = ${SM}`)*/
+alert(`Média Simples = ${SM}`)
 
 const MediaPon = () =>{
 
