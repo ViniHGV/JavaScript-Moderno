@@ -1,20 +1,32 @@
 const simpleMedia = () => {
-    let n1 = parseFloat (prompt ("Digite a  primeira nota:"))
-    let n2 = parseFloat (prompt ("Digite a  segunda nota:"))
-    let n3 = parseFloat (prompt ("Digite a  terceira nota:"))
-    let n4 = parseFloat (prompt ("Digite a  quarta not10a:"))
+
+    let i = 0
+    let N = parseInt(prompt("Deseja obter a média de quantas notas ?"))
+    let grades  
+    let Tot = 0 
+    while (i<N)
+    {
+        grades =  parseFloat (prompt(`Digite a ${i+1}° Nota`))
+        Tot += grades
+        i++
+    }
     
-    
-    return ((n1 + n2 + n3 + n4) / 4)
+    return Tot / i
 }
 
-const MediaPon = () =>{
-    
-}
+//const Name = prompt("Digite o nome do aluno:")
 
-const Name = prompt("Digite o nome do aluno:")
 let SM = simpleMedia()
 
-alert(`A Média do aluno ${Name} foi: ${SM}`)
+alert(`Média = ${SM}`)
+
+const MediaPon = () =>{
+
+    let 
+
+}
+
+
+
 
 
